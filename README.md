@@ -5,6 +5,8 @@
 
 Most analytics projects stop at charts. This one goes a layer deeper — I built a proper data warehouse with a star schema, loaded it into SQL, wrote 15+ analytical queries, and connected Power BI on top. The goal was to treat a retail dataset the way a business would actually want to use it: structured for querying, not just visualising.
 
+The source data (`clean_superstore.csv`) was prepared as part of a separate project — the [Sales Monitoring & Alert System](https://github.com/[yourusername]/sales-monitoring-alert-system). This project takes that cleaned dataset and transforms it into a structured star-schema data warehouse — standardising column formats, building dimension and fact tables, and generating surrogate keys for SQL analysis.
+
 ---
 
 ## Dashboard Preview
@@ -72,7 +74,8 @@ Most analytics projects stop at charts. This one goes a layer deeper — I built
 ## Files
 
 ```
-├── clean_superstore.csv   # Source dataset (pre-processed Superstore data)
+├── clean_superstore.csv   # Source dataset — cleaned output from the
+│                          # Sales Monitoring & Alert System project
 ├── data_preparation.py    # Full ETL script
 ├── sales_analysis.sql     # All SQL queries and table creation
 ├── dim_customer.csv       # Customer dimension table
