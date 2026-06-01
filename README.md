@@ -79,6 +79,5 @@ Most analytics projects stop at charts. This one goes a layer deeper — I built
 ├── dim_product.csv        # Product dimension table
 ├── dim_region.csv         # Region dimension table
 ├── fact_sales.csv         # Fact table with surrogate keys
-├── power_bi.pbix          # Power BI source file
 └── dashboard.png          # Dashboard screenshot
 ```
