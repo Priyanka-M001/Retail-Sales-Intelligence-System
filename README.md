@@ -72,6 +72,7 @@ Most analytics projects stop at charts. This one goes a layer deeper — I built
 ## Files
 
 ```
+├── clean_superstore.csv   # Source dataset (pre-processed Superstore data)
 ├── data_preparation.py    # Full ETL script
 ├── sales_analysis.sql     # All SQL queries and table creation
 ├── dim_customer.csv       # Customer dimension table
