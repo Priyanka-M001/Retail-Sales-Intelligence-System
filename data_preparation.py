@@ -6,7 +6,7 @@ import pandas as pd
 
 
 # Load dataset
-df = pd.read_csv("clean_superstore-.csv")
+df = pd.read_csv("clean_superstore.csv")
 
 
 # Standardize column names to lowercase and snake_case
