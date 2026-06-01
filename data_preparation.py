@@ -6,7 +6,7 @@ import pandas as pd
 
 
 # Load dataset
-df = pd.read_csv(r"P:/Data Analytics/Projects/PROJECT 2 — Automated Business Sales Intelligence System/clean_superstore-.csv")
+df = pd.read_csv("clean_superstore-.csv")
 
 
 # Standardize column names to lowercase and snake_case
